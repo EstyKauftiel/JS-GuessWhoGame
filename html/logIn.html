@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/logIn.css" rel="stylesheet" />
+    <title>log in</title>
+</head>
+<body>
+    <div  class="center-container">
+    <div class="container right-panel-active">
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form1" onsubmit="signIn(event)">
+                <h2 class="form__title">Sign In</h2>
+                <input type="email" placeholder="Email" class="input" id="emailUserUp" required />
+                <input type="password" placeholder="Password" class="input" id="passwordUserUp" required />
+                <button type="submit" class="btn">Sign In</button>
+            </form>
+        </div>
+        <div class="container__form container--login">
+            <form action="#" class="form" id="form2" onsubmit="logIn(event)">
+                <h2 class="form__title">Log In</h2>
+                <input type="email" placeholder="Email" class="input" id="emailUserIn" required />
+                <input type="password" placeholder="Password" class="input" id="passwordUserIn" required />
+                <button type="submit" class="btn">Log In</button>
+            </form>
+        </div>
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">Log In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../javascript/logIn.js"></script>
+</html>

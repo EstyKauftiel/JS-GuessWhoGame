@@ -1,0 +1,139 @@
+  #headbandSpan{
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    margin-left: 184px;
+    margin-top: -30px;
+  }
+  #headbandSpan img{
+    width: 199px;
+    height: 140px;
+  }
+  #eyesSpan {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    margin-left: 251px;
+    margin-top: 93px;
+  }
+  #eyesSpan img{
+    width: 77px;
+    height:35px;
+  }
+  #mouthSpan {
+    display: inline-block;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    margin-left: 262px;
+    margin-top: 129px;
+  } 
+  #mouthSpan img{
+    width: 55px;
+    height:33px;
+  }
+   #bagsSpan{
+    display: inline-block;
+    height: 100px;
+    width: 80px;
+    position: absolute;
+    margin-top: 357px;
+    margin-left: 320px;
+  }
+  #bagsSpan img{
+    width: 100px;
+    height: 120px;
+  }
+  #girlSpan{
+    display: inline-block;
+    height: 600px;
+    width: 550px;
+    position: absolute;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  #body{
+    background-image: url(../imgs/b.jpg );
+    background-size: 102% 115%;
+  }
+  #girl{
+    height: 600px;
+    width: 520px;
+  }
+  #human-doll{
+    margin-left: 100px;
+    margin-top: 12%;
+    background-image: url(../imgs/girl2.png);
+  }
+  .images{
+    margin-bottom: 5%;
+    margin-left: 3%;
+  }
+  #image-container{
+    background-image:url(../imgs/מ.png) ;
+    background-size: cover;
+    height: 700px;
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 6.8%;
+   border-radius:20px ;
+   background-repeat: no-repeat;
+  }
+  .headband{
+    width: 100px;
+    height: 90px;
+    margin-left: 7%;
+    margin-top: 7%;
+    padding: 1%;
+  }
+  .eyes{
+    width: 80px;
+    height: 60px;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding-left: 10%;
+  }
+  .handbag{
+    width: 80px;
+    height: 100px;
+    margin-left: 7%;
+    margin-top: -5%;
+    padding-left: 5%;
+  }
+  .mouth{
+    width: 70px;
+    height:40px;
+    margin-left: 9%;
+    margin-top: 4%;
+    padding-left: 3%;
+  }
+  #all{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 90%;
+  }
+#scoreAndPoints{
+  background-image: linear-gradient(rgb(242, 0, 255),rgb(29, 134, 225));
+  border: 5px;
+  border-radius: 50%;
+  margin-top: 300px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  font-family: Berlin Sans FB;
+  font-size: 30px;
+  color: white;
+}
+
+#points{
+  font-size: 70px;
+}
+#score{
+  text-align: center;
+} 
+
